@@ -1,7 +1,7 @@
 # Deployment object
 deployment:
   enabled: true
-  name: orders
+  name: orders-test
   namespace: ecommerce
   replicas: 3
   appName: orders
@@ -9,7 +9,7 @@ deployment:
   containerName: orders-container
   imageRepository: lukondefmwila/ecommerce-orders
   imageTag: 0.2.1
-  port: 3002
+  port: 3003
 # Horizontal Pod Autoscaler
 hpa:
   enabled: true
