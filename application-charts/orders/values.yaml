@@ -9,7 +9,7 @@ deployment:
   containerName: orders-container
   imageRepository: lukondefmwila/ecommerce-orders
   imageTag: 0.2.1
-  port: 3003
+  port: 3002
 # Horizontal Pod Autoscaler
 hpa:
   enabled: true
